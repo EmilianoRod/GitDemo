@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="49.014" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="webdriver.chrome.driver" value="/Users/emilianorodriguez/Desktop/Cursoselenium/chromedriver 4"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/emilianorodriguez/eclipse/E2EProject/target/test-classes:/Users/emilianorodriguez/eclipse/E2EProject/target/classes:/Users/emilianorodriguez/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/emilianorodriguez/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/emilianorodriguez/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/Users/emilianorodriguez/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:/Users/emilianorodriguez/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/emilianorodriguez/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/emilianorodriguez/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/emilianorodriguez/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/emilianorodriguez/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/emilianorodriguez/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/emilianorodriguez/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/emilianorodriguez/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/emilianorodriguez/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/emilianorodriguez/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/emilianorodriguez/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/emilianorodriguez/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/emilianorodriguez/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/emilianorodriguez/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/emilianorodriguez/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/emilianorodriguez/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/emilianorodriguez/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/emilianorodriguez/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/emilianorodriguez/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Montevideo"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="UY"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/emilianorodriguez/eclipse/E2EProject/target/surefire/surefirebooter11813328918081189988.jar /Users/emilianorodriguez/eclipse/E2EProject/target/surefire 2020-05-19T18-05-37_594-jvmRun1 surefire8704945977264492369tmp surefire_016534117382381397096tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/emilianorodriguez/eclipse/E2EProject/target/test-classes:/Users/emilianorodriguez/eclipse/E2EProject/target/classes:/Users/emilianorodriguez/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/emilianorodriguez/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/emilianorodriguez/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/Users/emilianorodriguez/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:/Users/emilianorodriguez/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/emilianorodriguez/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/emilianorodriguez/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/emilianorodriguez/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/emilianorodriguez/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/emilianorodriguez/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/emilianorodriguez/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/emilianorodriguez/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/emilianorodriguez/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/emilianorodriguez/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/emilianorodriguez/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/emilianorodriguez/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/emilianorodriguez/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/emilianorodriguez/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/emilianorodriguez/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/emilianorodriguez/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/emilianorodriguez/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/emilianorodriguez/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/emilianorodriguez/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/emilianorodriguez"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/emilianorodriguez/eclipse/E2EProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/emilianorodriguez/eclipse/E2EProject/target/surefire/surefirebooter11813328918081189988.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="user.name" value="emilianorodriguez"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/emilianorodriguez/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/0m/gb7z83vd0cj1xmtytxxw2tgm0000gn/T/"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="user.dir" value="/Users/emilianorodriguez/eclipse/E2EProject"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/emilianorodriguez/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="basePageNavigation" classname="Academy.ValidateNavigationBar" time="0.077"/>
+  <testcase name="basePageNavigation" classname="Academy.ValidateTitle" time="0.034"/>
+  <testcase name="basePageNavigation" classname="Academy.HomePage" time="17.048"/>
+  <testcase name="basePageNavigation" classname="Academy.HomePage" time="8.517"/>
+</testsuite>
