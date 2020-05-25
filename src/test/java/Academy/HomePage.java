@@ -10,6 +10,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 
+import pageObjects.ForgotPasswordPage;
 import pageObjects.LandingPage;
 import pageObjects.LoginPage;
 import resources.base;
@@ -27,6 +28,7 @@ public class HomePage extends base{
 	
 	
 	@Test(dataProvider = "getData")
+	
 	public void basePageNavigation(String Username, String Password, String Text) throws IOException {
 
 		//There are two ways to access to the methos of other class
@@ -34,14 +36,16 @@ public class HomePage extends base{
 		//Other is creating object to that class and invoke methods of it.
 		driver.get(prop.getProperty("url"));
 		LandingPage l = new LandingPage(driver);
-		l.getLogin().click(); //driver.findElement(By.xpath(""))
-		LoginPage lp = new LoginPage(driver);
+		LoginPage lp = l.getLogin();
 		lp.getEmail().sendKeys(Username);
 		lp.getPassword().sendKeys(Password);
-		lp.getLogin().click();
 		Log.info(Text);
-
-	}
+		
+		lp.getLogin().click();
+		ForgotPasswordPage fp = lp.forgotPassword();
+		fp.getEmail().sendKeys("aaa");
+		fp.sendMeInstructions().click();
+		}
 	
     @AfterTest
 	public void teardown() {

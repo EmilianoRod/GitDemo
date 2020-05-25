@@ -25,7 +25,7 @@ public class base {
 		
 		if(browserName.equals("chrome")) {
 			
-			System.setProperty("webdriver.chrome.driver", "/Users/emilianorodriguez/Desktop/Cursoselenium/chromedriver 4");
+			System.setProperty("webdriver.chrome.driver", "/Users/emilianorodriguez/Desktop/Cursoselenium/chromedriver 5");
 			driver = new ChromeDriver();
 		}
 		else if(browserName.equals("firefox")) {
@@ -41,11 +41,12 @@ public class base {
 		return driver;
 	}
 	
-	public void getScreenShotPath(String testCaseName, WebDriver driver) throws IOException {
+	public String getScreenShotPath(String testCaseName, WebDriver driver) throws IOException {
 			TakesScreenshot ts = (TakesScreenshot) driver;
 			File source = ts.getScreenshotAs(OutputType.FILE);
 			String destinationFile = System.getProperty("user.dir")+"\\reports\\"+testCaseName+".png";
 			FileUtils.copyFile(source,new File(destinationFile));
+			return destinationFile;
 	}
 
 }
